@@ -1,4 +1,5 @@
 {
+    "prefer-stable": false,
     "name": "laravel-notification-channels/twilio",
     "description": "Provides Twilio notification channel for Laravel",
     "keywords": [
@@ -57,7 +58,8 @@
         "test:integration": "phpunit --verbose --testsuite Integration"
     },
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "minimum-stability": "dev"
     },
     "extra": {
         "laravel": {
