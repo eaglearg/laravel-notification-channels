@@ -1,5 +1,4 @@
 {
-    "prefer-stable": false,
     "name": "laravel-notification-channels/twilio",
     "description": "Provides Twilio notification channel for Laravel",
     "keywords": [
@@ -59,7 +58,7 @@
     },
     "config": {
         "sort-packages": true,
-        "minimum-stability": "dev"
+        "minimum-stability": "stable"
     },
     "extra": {
         "laravel": {
